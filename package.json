@@ -1,0 +1,16 @@
+{
+	"name": "scriptingnightlyemail", 
+	"description": "This runs every night at midnight, gathers the new items from the Scripting News feed and adds them to a new feed that has one item per day. Originally this feed was designed to be hooked into a mail distributor like Mailchimp, but I decided to write my own mail distributor.",
+	"author": "Dave Winer <dave@smallpicture.com>",
+	"license": "MIT",
+	"version": "0.4.10",
+	"dependencies" : {
+		"daveutils": "*",
+		"daverss": "*",
+		"daves3": "*",
+		"davemail": "*",
+		"davefeedread": "*",
+		"dateformat": "*",
+		"request": "*"
+		} 
+	}

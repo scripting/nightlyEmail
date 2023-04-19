@@ -1,0 +1,150 @@
+<html>
+	<head>
+		<title>[%title%]</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body {
+				}
+			.divPageBody {
+				margin-bottom: 400px;
+				color: black;
+				}
+			.divDayContainer {
+				font-family: "Arial";
+				font-size: 18px;
+				color: black;
+				line-height: 150%;
+				width: 85%;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: white;
+				padding: 25px;
+				padding-bottom: 10px;
+				border: 1px solid silver;
+				}
+			.divDayContainer a {
+				color: #0088CC;
+				text-decoration: none;
+				}
+			.divDayTitle {
+				font-family: "Arial";
+				font-size: 28px;
+				font-weight: bold;
+				margin-bottom: 25px;
+				letter-spacing: -1px;
+				}
+			.divDayTitle a {
+				color: black;
+				}
+			.divSingularItem {
+				font-size: 18px;
+				margin-bottom: .6em;
+				}
+			.spPermaLink {
+				margin-left: 5px;
+				margin-right: 8px;
+				}
+			.spPermaLink a {
+				font-family: "Arial";
+				color: purple;
+				opacity: 0.2;
+				font-weight: normal;
+				font-size: 14px;
+				cursor: pointer;
+				}
+			.divTitledItem .divTitle {
+				font-family: "Arial";
+				font-size: 22px;
+				margin-top: 20px;
+				margin-bottom: .1em;
+				font-weight: bold;
+				line-height: 140%;
+				letter-spacing: -1px;
+				}
+			.divTitledItem .divTitle a {
+				color: black;
+				}
+			.divTitledItem ul {
+				margin-left: 0;
+				padding-inline-start: 0 !important;
+				margin-block-start: 0;
+				}
+			.divTitledItem li {
+				font-size: 18px;
+				list-style-type: none;
+				margin-bottom: .6em;
+				line-height: 150%;
+				}
+			.divPgf {
+				margin-bottom: .6em;
+				line-height: 150%;
+				}
+			.divLinkblog {
+				font-family: "Arial";
+				font-size: 18px;
+				margin-top: 75px;
+				border-top: 1px solid silver;
+				line-height: 130%;
+				}
+			.divLinkblog h4 {
+				margin-block-start: 10px;
+				margin-block-start: 10px;
+				margin-block-end: 10px;
+				}
+			.divLinkblog h4 a {
+				color: inherit;
+				}
+			.divLinkblogItem { 
+				margin-bottom: 10px;
+				line-height: 120%;
+				}
+			.divFooter {
+				font-family: "Arial";
+				font-size: 15px;
+				color: black;
+				text-align: center;
+				margin-top: 75px;
+				border-top: 1px solid silver;
+				padding-top: 5px;
+				}
+			.divInlineImage {
+				padding: 10px;
+				padding-left: 15px;
+				padding-right: 15px;
+				border: 1px dashed silver;
+				font-size: 0.8em;
+				line-height: 130%;
+				text-align: center;
+				}
+			.imgInline {
+				margin-bottom: 10px;
+				}
+			.spSpoiler {
+				display: none;
+				}
+			</style>
+		</head>
+	<body>
+		<div class="divPageBody">
+			<div class="divDayContainer">
+				[%text%]
+				<div class="divLinkblog">
+					[%linkblogtext%]
+					</div>
+				<div class="divFooter">
+					[%copyright%]<br>
+					This email was sent on: [%whenSent%] Eastern.<br>
+					"[%snarkySlogan%]"<br>
+					[%howLongBlogRunning%]<br>
+					How to <a href="http://scripting.com/email/">subscribe</a>. Read on <a href="[%readOnWebUrl%]">the web</a>. Click <a href="[%unsubUrl%]">here</a> to unsubscribe.
+					</div>
+				</div>
+			</div>
+		<script>
+			$(document).ready (function () {
+				startup ();
+				});
+			</script>
+		</body>
+	</html>
