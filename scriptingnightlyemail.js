@@ -1,4 +1,4 @@
-var myVersion = "0.4.10", myProductName = "scriptingNightlyEmail"; 
+var myVersion = "0.4.11", myProductName = "scriptingNightlyEmail"; 
 
 const utils = require ("daveutils");
 const rss = require ("daverss");
@@ -22,7 +22,7 @@ var config = {
 	
 	emailPrefsFile: "../scriptingmaillist/data/emailPrefs.json", //8/28/19 by DW
 	emailUnsubUrl: "http://scripting.com/email/?unsub=true&email=[%email%]", //8/28/19 by DW
-	emailCopyright: "Copyright 1994-2023 Dave Winer.", //1/5/22 by DW
+	emailCopyright: "Copyright 1994-2024 Dave Winer.", //1/5/22 by DW
 	
 	dataFilePath: "data/",
 	timeOutSecs: 30,
